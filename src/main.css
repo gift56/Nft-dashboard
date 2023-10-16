@@ -9,3 +9,13 @@
 body {
   @apply bg-bodyColor text-white;
 }
+
+.seller::-webkit-scrollbar {
+  width: 4px;
+  height: 6px;
+  background-color: #161A42;
+}
+.seller::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #2193b0 0%, #6dd5ed 100%);
+  border-radius: 20px;
+}
