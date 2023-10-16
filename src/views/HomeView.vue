@@ -3,5 +3,7 @@
 </script>
 
 <template>
-  <main>Hello</main>
+  <main class="flex items-start justify-start w-full h-screen overflow-hidden gap-6">
+
+  </main>
 </template>
