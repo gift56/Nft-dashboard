@@ -10,6 +10,6 @@ import LeftSideBar from "../components/LeftSideBar.vue";
       <LeftSideBar />
     </div>
     <div class="flex-grow">djdj</div>
-    <div class="flex-shrink">World</div>
+    <div class="flex-shrink"></div>
   </main>
 </template>
