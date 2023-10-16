@@ -22,6 +22,9 @@ module.exports = {
       fontFamily: {
         quicksand: "'Quicksand', sans-serif",
       },
+      boxShadow: {
+        connectShadow: "0px 13px 17px 0px rgba(140, 213, 105, 0.20)",
+      },
     },
   },
   plugins: [],
