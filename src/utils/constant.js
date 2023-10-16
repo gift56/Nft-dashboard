@@ -2,8 +2,11 @@ import {
   ActivityIcon,
   BarIcon,
   BuyIcon,
+  FriendsIcon,
   MessageIcon,
+  SettingsIcon,
   TimeIcon,
+  WalletIcon,
 } from "../assets";
 
 export const leftSideBar = [
@@ -23,6 +26,17 @@ export const leftSideBar = [
       },
       {
         iconImage: TimeIcon,
+      },
+    ],
+    seconIcons: [
+      {
+        iconImage: WalletIcon,
+      },
+      {
+        iconImage: FriendsIcon,
+      },
+      {
+        iconImage: SettingsIcon,
       },
     ],
   },
