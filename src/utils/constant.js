@@ -1,4 +1,6 @@
 import {
+  Activity1,
+  Activity2,
   ActivityIcon,
   BarIcon,
   BidArt1,
@@ -219,5 +221,26 @@ export const bidsData = [
     artName: "Akuma Origins",
     artPrice: "0.045 ETH",
     bidUsers: [BidUser4, BidUser5, BidUser6],
+  },
+];
+
+export const activityData = [
+  {
+    activityImage: Activity1,
+    activityTitle: "Crystal_Art",
+    autor: "@rudepixxel",
+    details: {
+      headline: "New Bid 6.25 ETH",
+      timestamp: "3m ago",
+    },
+  },
+  {
+    activityImage: Activity2,
+    activityTitle: "Creative Art",
+    autor: "@songkang",
+    details: {
+      headline: "New Bid 7.50 ETH",
+      timestamp: "3m ago",
+    },
   },
 ];

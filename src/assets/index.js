@@ -25,6 +25,8 @@ import BidUser3 from "./image/bidUser3.png";
 import BidUser4 from "./image/bidUser4.png";
 import BidUser5 from "./image/bidUser5.png";
 import BidUser6 from "./image/bidUser6.png";
+import Activity1 from "./image/activityImage1.png";
+import Activity2 from "./image/activityImage2.png";
 
 export {
   BarIcon,
@@ -53,4 +55,6 @@ export {
   BidUser4,
   BidUser5,
   BidUser6,
+  Activity1,
+  Activity2,
 };
