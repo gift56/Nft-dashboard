@@ -4,7 +4,7 @@
   >
     <div class="relative">
       <h2 class="text-3xl font-bold font-quicksand">My Profile</h2>
-      <img src="" alt="">
+      <img src="@/assets/image/avatarImage.svg" alt="user_avatar" />
     </div>
   </div>
 </template>
