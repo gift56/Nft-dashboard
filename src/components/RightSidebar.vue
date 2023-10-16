@@ -18,25 +18,25 @@
         class="w-12 h-12 bg-ballsBg rounded-full absolute top-[5%] right-[-15%]"
       ></div>
       <div
-        class="w-16 h-16 bg-balls2Bg rounded-full absolute top-[20%] right-[-25%] z-10"
+        class="w-16 h-16 bg-balls2Bg rounded-full absolute top-[40%] right-[-25%] z-10"
       ></div>
       <div
-        class="w-16 h-16 bg-[#FFA336] rounded-full absolute top-[25%] right-[-25%] blur-[39.5px]"
+        class="w-16 h-16 bg-[#FFA336] rounded-full absolute top-[46%] right-[-25%] blur-[39.5px]"
       ></div>
       <div
-        class="w-16 h-16 bg-balls3Bg rounded-full absolute top-[10%] left-[-25%] z-10"
+        class="w-16 h-16 bg-balls3Bg rounded-full absolute top-[18%] left-[-25%] z-10"
       ></div>
       <div
-        class="w-[102px] h-[102px] bg-[#A22DFF] rounded-full absolute top-[10%] left-[-25%] blur-[89.5px]"
+        class="w-[102px] h-[102px] bg-[#A22DFF] rounded-full absolute top-[18%] left-[-25%] blur-[89.5px]"
       ></div>
-      <div class="w-8 h-16 bg-balls4Bg rounded-br-full absolute top-[40%] left-[-12%] z-10"></div>
+      <div class="w-8 h-16 bg-balls4Bg rounded-br-full absolute top-[80%] left-[-12%] z-10"></div>
       <div
-        class="w-16 h-16 bg-[#FFA336] rounded-full absolute top-[40%] left-[-12%] blur-[89.5px]"
+        class="w-16 h-16 bg-[#FFA336] rounded-full absolute top-[80%] left-[-12%] blur-[89.5px]"
       ></div>
-      <div class="w-5 h-5 bg-smallBallsBg rounded-full"></div>
-      <div class="w-5 h-5 bg-smallBallsBg2 rounded-full"></div>
-      <div class="w-3 h-3 bg-[#555D75] rounded-full"></div>
-      <div class="w-2 h-2 bg-[#555D75] rounded-full"></div>
+      <div class="w-5 h-5 bg-smallBallsBg rounded-full absolute top-[16%] left-[12%] z-10"></div>
+      <div class="w-5 h-5 bg-smallBallsBg2 rounded-full absolute top-[16%] left-[12%] z-10"></div>
+      <div class="w-3 h-3 bg-[#555D75] rounded-full absolute top-[16%] left-[12%] z-10"></div>
+      <div class="w-2 h-2 bg-[#555D75] rounded-full absolute top-[16%] left-[12%] z-10"></div>
     </div>
   </div>
 </template>
