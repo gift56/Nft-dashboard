@@ -12,7 +12,7 @@
         class="border-2 rounded-full border-[#fc6767]"
       />
       <h4 class="text-2xl font-semibold font-quicksand">Musfiqur Rahman</h4>
-      <div class="w-12 h-12 bg-ballsBg rounded-full"></div>
+      <div class="w-12 h-12 bg-ballsBg rounded-full absolute top-[5%] right-[-15%]"></div>
       <div class="w-16 h-16 bg-balls2Bg rounded-full"></div>
       <div class="w-16 h-16 bg-balls3Bg rounded-full"></div>
       <div class="w-8 h-16 bg-balls4Bg rounded-full"></div>
