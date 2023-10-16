@@ -1,5 +1,6 @@
 <script setup>
 import LeftSideBar from "../components/LeftSideBar.vue";
+import RightSideBar from "../components/RightSidebar.vue";
 </script>
 
 <template>
@@ -10,6 +11,8 @@ import LeftSideBar from "../components/LeftSideBar.vue";
       <LeftSideBar />
     </div>
     <div class="flex-grow">djdj</div>
-    <div class="flex-shrink"></div>
+    <div class="flex-shrink">
+      <RightSideBar />
+    </div>
   </main>
 </template>
