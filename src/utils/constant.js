@@ -15,7 +15,7 @@ import {
   WalletIcon,
 } from "../assets";
 
-export const leftSideBar = [
+export const leftSideBarData = [
   {
     firstIcons: [
       {
@@ -48,7 +48,7 @@ export const leftSideBar = [
   },
 ];
 
-export const topSellers = [
+export const topSellersData = [
   {
     sellerImage: Seller1,
     username: "@dicar",
@@ -156,5 +156,12 @@ export const topSellers = [
     username: "@astroo2",
     price: "$172,023",
     verified: true,
+  },
+];
+
+export const bidsData = [
+  {
+    countdown: "00:00:00",
+    bidImage: "",
   },
 ];
