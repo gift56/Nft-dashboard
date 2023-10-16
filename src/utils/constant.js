@@ -47,6 +47,7 @@ export const leftSideBarData = [
   },
 ];
 
+
 export const topSellersData = [
   {
     sellerImage: Seller1,

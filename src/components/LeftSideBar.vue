@@ -17,6 +17,25 @@
           <img :src="icon.iconImage" alt="icons" />
         </div>
       </div>
+      <div
+        class="w-full relative flex flex-col items-center justify-center gap-6"
+      >
+        <div
+          class="w-full flex items-center justify-center h-10 hover:bg-sidebarhoverColor transition-all duration-300 cursor-pointer rounded-md"
+        >
+          <img src="../assets/icons/walletIcon.png" alt="icons" />
+        </div>
+        <div
+          class="w-full flex items-center justify-center h-10 hover:bg-sidebarhoverColor transition-all duration-300 cursor-pointer rounded-md"
+        >
+          <img src="../assets/icons/friendsIcon.png" alt="icons" />
+        </div>
+        <div
+          class="w-full flex items-center justify-center h-10 hover:bg-sidebarhoverColor transition-all duration-300 cursor-pointer rounded-md"
+        >
+          <img src="../assets/icons/settingsIcon.png" alt="icons" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
