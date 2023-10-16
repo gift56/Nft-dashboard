@@ -11,7 +11,7 @@
         alt="user_avatar"
         class="border-2 rounded-full border-[#fc6767]"
       />
-      <h4></h4>
+      <h4 class="text-2xl font-semibold font-quicksand">Musfiqur Rahman</h4>
     </div>
   </div>
 </template>
