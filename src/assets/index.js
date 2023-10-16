@@ -23,4 +23,10 @@ export {
   WalletIcon,
   FriendsIcon,
   SettingsIcon,
+  Seller1,
+  Seller2,
+  Seller3,
+  Seller4,
+  Seller5,
+  Seller6,
 };

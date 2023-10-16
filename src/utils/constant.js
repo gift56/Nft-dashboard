@@ -4,6 +4,7 @@ import {
   BuyIcon,
   FriendsIcon,
   MessageIcon,
+  Seller1,
   SettingsIcon,
   TimeIcon,
   WalletIcon,
@@ -44,6 +45,6 @@ export const leftSideBar = [
 
 export const topSellers = [
   {
-    sellerImage: "",
+    sellerImage: Seller1,
   },
 ];
