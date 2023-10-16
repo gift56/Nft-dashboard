@@ -13,7 +13,13 @@
       />
       <h4 class="text-2xl font-semibold font-quicksand">Musfiqur Rahman</h4>
       <div class="w-12 h-12 bg-ballsBg rounded-full"></div>
-      <div class="w-16 h-16 bg-ballsBg rounded-full"></div>
+      <div class="w-16 h-16 bg-balls2Bg rounded-full"></div>
+      <div class="w-16 h-16 bg-balls3Bg rounded-full"></div>
+      <div class="w-8 h-16 bg-balls4Bg rounded-full"></div>
+      <div class="w-5 h-5 bg-smallBallsBg rounded-full"></div>
+      <div class="w-5 h-5 bg-smallBallsBg2 rounded-full"></div>
+      <div class="w-3 h-3 bg-[#555D75] rounded-full"></div>
+      <div class="w-2 h-2 bg-[#555D75] rounded-full"></div>
     </div>
   </div>
 </template>
