@@ -1,6 +1,7 @@
 import {
   ActivityIcon,
   BarIcon,
+  BidArt1,
   BuyIcon,
   FriendsIcon,
   MessageIcon,
@@ -162,6 +163,7 @@ export const topSellersData = [
 export const bidsData = [
   {
     countdown: "00:00:00",
-    bidImage: "",
+    totalLike: "232",
+    bidImage: BidArt1,
   },
 ];

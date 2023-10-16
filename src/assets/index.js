@@ -47,4 +47,10 @@ export {
   BidArt4,
   BidArt5,
   BidArt6,
+  BidUser1,
+  BidUser2,
+  BidUser3,
+  BidUser4,
+  BidUser5,
+  BidUser6,
 };
