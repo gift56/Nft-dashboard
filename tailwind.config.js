@@ -8,6 +8,7 @@ module.exports = {
         sidebarhoverColor: "#232966",
         inputBorderColor: "#212554",
         darkColor: "#161A42",
+        darkColor2: "#212760",
         primary: "#1FA2FF",
         primary2: "#5EEAD4",
       },
