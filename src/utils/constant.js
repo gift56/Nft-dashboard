@@ -42,4 +42,8 @@ export const leftSideBar = [
   },
 ];
 
-export const topSellers = [{}];
+export const topSellers = [
+  {
+    sellerImage: "",
+  },
+];
