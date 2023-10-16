@@ -18,7 +18,7 @@ module.exports = {
         grayBg: "linear-gradient(90deg, #9796F0 0%, #FBC7D4 100%)",
         textBg:
           "linear-gradient(89deg, #BAC1FF -0.98%, #63FEFE 54.08%, #FF3EEC 112.69%)",
-          
+        ballsBg: "linear-gradient(90deg, #1CD8D2 0%, #93EDC7 100%)",
       },
       fontFamily: {
         quicksand: "'Quicksand', sans-serif",

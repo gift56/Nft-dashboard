@@ -12,6 +12,7 @@
         class="border-2 rounded-full border-[#fc6767]"
       />
       <h4 class="text-2xl font-semibold font-quicksand">Musfiqur Rahman</h4>
+      <div class="w-12 h-12 bg-ballsBg"></div>
     </div>
   </div>
 </template>
