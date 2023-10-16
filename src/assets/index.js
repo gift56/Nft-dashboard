@@ -7,4 +7,13 @@ import WalletIcon from "./icons/walletIcon.png";
 import FriendsIcon from "./icons/friendsIcon.png";
 import SettingsIcon from "./icons/settingsIcon.png";
 
-export { BarIcon };
+export {
+  BarIcon,
+  MessageIcon,
+  BuyIcon,
+  ActivityIcon,
+  TimeIcon,
+  WalletIcon,
+  FriendsIcon,
+  SettingsIcon,
+};
