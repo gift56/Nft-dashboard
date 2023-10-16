@@ -12,7 +12,7 @@
         <div
           v-for="icon in leftSideBarData"
           :key="icon.iconImage"
-          class="first:bg-sidebarhoverColor w-full flex items-center justify-center h-10 hover:bg-sidebarhoverColor transition-all duration-300 cursor-pointer"
+          class="first:bg-sidebarhoverColor w-full flex items-center justify-center h-10 hover:bg-sidebarhoverColor transition-all duration-300 cursor-pointer rounded-md"
         >
           <img :src="icon.iconImage" alt="icons" />
         </div>
