@@ -5,5 +5,8 @@
 <script>
 export default {
   name: "LeftSideBar",
+  components: {
+    LeftSidebar,
+  },
 };
 </script>
