@@ -19,6 +19,12 @@ import BidArt3 from "./image/bidImage3.png";
 import BidArt4 from "./image/bidImage4.png";
 import BidArt5 from "./image/bidImage5.png";
 import BidArt6 from "./image/bidImage6.png";
+import BidUser1 from "./image/bidUser1.png";
+import BidUser2 from "./image/bidUser2.png";
+import BidUser3 from "./image/bidUser3.png";
+import BidUser4 from "./image/bidUser4.png";
+import BidUser5 from "./image/bidUser5.png";
+import BidUser6 from "./image/bidUser6.png";
 
 export {
   BarIcon,
@@ -35,4 +41,10 @@ export {
   Seller4,
   Seller5,
   Seller6,
+  BidArt1,
+  BidArt2,
+  BidArt3,
+  BidArt4,
+  BidArt5,
+  BidArt6,
 };
