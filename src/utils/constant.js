@@ -31,34 +31,19 @@ import {
 
 export const leftSideBarData = [
   {
-    firstIcons: [
-      {
-        iconImage: BarIcon,
-      },
-      {
-        iconImage: MessageIcon,
-      },
-      {
-        iconImage: BuyIcon,
-      },
-      {
-        iconImage: ActivityIcon,
-      },
-      {
-        iconImage: TimeIcon,
-      },
-    ],
-    seconIcons: [
-      {
-        iconImage: WalletIcon,
-      },
-      {
-        iconImage: FriendsIcon,
-      },
-      {
-        iconImage: SettingsIcon,
-      },
-    ],
+    iconImage: BarIcon,
+  },
+  {
+    iconImage: MessageIcon,
+  },
+  {
+    iconImage: BuyIcon,
+  },
+  {
+    iconImage: ActivityIcon,
+  },
+  {
+    iconImage: TimeIcon,
   },
 ];
 
