@@ -19,6 +19,9 @@ module.exports = {
         textBg:
           "linear-gradient(89deg, #BAC1FF -0.98%, #63FEFE 54.08%, #FF3EEC 112.69%)",
       },
+      fontFamily: {
+        quicksand: "'Quicksand', sans-serif",
+      },
     },
   },
   plugins: [],
