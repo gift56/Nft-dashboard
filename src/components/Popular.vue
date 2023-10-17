@@ -14,6 +14,7 @@
     <div class="w-full flex items-center justify-between gap-4">
       <div class="flex-1 relative h-[280px]">
         <img src="../assets/image/nftImage1.png" alt="nft1" class="h-full rounded-3xl" />
+        <div></div>
       </div>
       <div class="flex-1 relative h-[280px]">
         <img src="../assets/image/nftImage2.png" alt="nft2" class="h-full rounded-3xl" />
