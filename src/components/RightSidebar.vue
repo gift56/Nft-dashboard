@@ -121,11 +121,34 @@
         class="w-full h-[184px] rounded-2xl border-2 border-[#495099] backdrop-blur-sm"
       ></div>
     </div>
+    <div class="flex flex-col items-start justify-start gap-4 w-full">
+      <div class="w-full flex items-center justify-between">
+        <h3 class="text-xl font-bold font-quicksand">Recent Activity</h3>
+        <div
+          class="flex items-center justify-end gap-1 cursor-pointer select-none"
+        >
+          <span class="text-base font-semibold font-quicksand">See All</span>
+          <img src="@/assets/icons/arrowRightLongIcon.png" alt="arrow" />
+        </div>
+      </div>
+      <div class="flex flex-col items-start justify-start gap-4 w-full">
+        <div v-for="activity in activityData" :key="activity.activityTitle" class="">
+        
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+import { activityData } from "../utils/constant";
+
 export default {
   name: "RightSideBar",
+  data() {
+    return {
+      activityData,
+    };
+  },
 };
 </script>
