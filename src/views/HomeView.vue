@@ -28,6 +28,7 @@ import Sellers from "../components/Sellers.vue";
 import Bids from "../components/Bids.vue";
 
 export default {
+  name: "HomeView",
   components: {
     LeftSideBar,
     RightSideBar,
