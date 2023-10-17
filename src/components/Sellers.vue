@@ -1,5 +1,7 @@
 <template>
-  <div>Seller</div>
+  <div class="flex flex-col w-full items-start justify-start gap-5">
+    
+  </div>
 </template>
 
 <script>
