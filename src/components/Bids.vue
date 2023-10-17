@@ -37,7 +37,9 @@
           <h2 class="text-sm font-semibold text-[#FAFAFB]">
             {{ bid.artName }}
           </h2>
-          <div class="w-full"></div>
+          <div class="w-full">
+            <h4 class="text-sm font-bold ">{{ bid.artPrice }}</h4>
+          </div>
         </div>
       </div>
     </div>

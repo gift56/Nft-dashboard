@@ -18,6 +18,7 @@ module.exports = {
         grayBg: "linear-gradient(90deg, #9796F0 0%, #FBC7D4 100%)",
         textBg:
           "linear-gradient(89deg, #BAC1FF -0.98%, #63FEFE 54.08%, #FF3EEC 112.69%)",
+        textBg2: "linear-gradient(90deg, #ACB6E5 0%, #86FDE8 100%)",
         ballsBg: "linear-gradient(90deg, #1CD8D2 0%, #93EDC7 100%)",
         balls2Bg: "linear-gradient(90deg, #F857A6 0%, #FF5858 100%)",
         balls3Bg: "linear-gradient(201deg, #A22DFF 20.19%, #FF95DB 78.58%)",
