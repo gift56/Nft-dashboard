@@ -33,10 +33,10 @@
       <div
         class="w-16 h-16 bg-[#FFA336] rounded-full absolute top-[80%] left-[-12%] blur-[89.5px]"
       ></div>
-      <div class="w-5 h-5 bg-smallBallsBg rounded-full absolute top-[16%] left-[12%] z-10"></div>
-      <div class="w-5 h-5 bg-smallBallsBg2 rounded-full absolute top-[16%] left-[12%] z-10"></div>
-      <div class="w-3 h-3 bg-[#555D75] rounded-full absolute top-[16%] left-[12%] z-10"></div>
-      <div class="w-2 h-2 bg-[#555D75] rounded-full absolute top-[16%] left-[12%] z-10"></div>
+      <div class="w-5 h-5 bg-smallBallsBg rounded-full absolute top-[18%] left-[12%] z-10"></div>
+      <div class="w-5 h-5 bg-smallBallsBg2 rounded-full absolute top-[70%] right-[4%] z-10"></div>
+      <div class="w-3 h-3 bg-[#555D75] rounded-full absolute top-[56%] left-[2%] z-10"></div>
+      <div class="w-2 h-2 bg-[#555D75] rounded-full absolute top-[46%] right-[8%] z-10"></div>
     </div>
   </div>
 </template>
