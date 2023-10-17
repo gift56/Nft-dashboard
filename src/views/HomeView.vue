@@ -8,6 +8,7 @@
     <div class="flex-grow flex flex-col items-start justify-start gap-8">
       <Navbar />
       <Popular />
+      <Sellers />
     </div>
     <div class="flex-shrink">
       <RightSideBar />
