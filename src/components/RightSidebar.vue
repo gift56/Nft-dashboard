@@ -9,7 +9,7 @@
       <img
         src="@/assets/image/avatarImage.svg"
         alt="user_avatar"
-        class="border-2 rounded-full border-[#fc6767]"
+        class="border-2 rounded-full border-[#3461FF]"
       />
       <h4 class="text-2xl font-semibold font-quicksand relative z-10">
         Musfiqur Rahman
@@ -49,7 +49,38 @@
       ></div>
     </div>
     <div class="w-full grid grid-cols-4 items-start justify-start gap-6">
-      <div class=""></div>
+      <div class="flex items-center w-full flex-col gap-3 select-none">
+        <div
+          class="w-full h-12 rounded-2xl flex items-center justify-center border border-[#3461FF] text-lg font-semibold"
+        >
+          120
+        </div>
+        <h5 class="text-sm font-bold font-quicksand">Asset</h5>
+      </div>
+      <div class="flex items-center w-full flex-col gap-3 select-none">
+        <div
+          class="w-full h-12 rounded-2xl flex items-center justify-center border border-[#3461FF] text-lg font-semibold"
+        >
+          10K
+        </div>
+        <h5 class="text-sm font-bold font-quicksand">Followers</h5>
+      </div>
+      <div class="flex items-center w-full flex-col gap-3 select-none">
+        <div
+          class="w-full h-12 rounded-2xl flex items-center justify-center border border-[#3461FF] text-lg font-semibold"
+        >
+          70
+        </div>
+        <h5 class="text-sm font-bold font-quicksand">Likes</h5>
+      </div>
+      <div class="flex items-center w-full flex-col gap-3 select-none">
+        <div
+          class="w-full h-12 rounded-2xl flex items-center justify-center border border-[#3461FF] text-lg font-semibold"
+        >
+          60
+        </div>
+        <h5 class="text-sm font-bold font-quicksand">Bidding</h5>
+      </div>
     </div>
   </div>
 </template>
