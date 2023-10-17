@@ -87,12 +87,15 @@
       <div
         class="flex items-center justify-between w-full border border-[#495099] rounded-2xl backdrop-blur-sm py-2 px-3"
       >
-        <div class="flex items-center justify-start gap-2">
-          <img src="../assets/icons/ethereumIcon.png" alt="etheriumLogo" />
+        <div class="flex items-center justify-start gap-2 select-none">
+          <img src="@/assets/icons/ethereumIcon.png" alt="etheriumLogo" />
           <h2 class="text-lg font-bold font-quicksand">4,668 ETH</h2>
         </div>
-        <div class="flex items-center justify-end gap-2 cursor-pointer select-none">
-          <span>Add</span>
+        <div
+          class="flex items-center justify-end gap-1 cursor-pointer select-none"
+        >
+          <span class="text-base font-semibold font-quicksand">Add</span>
+          <img src="@/assets/icons/arrowDownIcon.png" alt="arrow" class="-rotate-90 w-4 h-4 object-contain" />
         </div>
       </div>
     </div>
