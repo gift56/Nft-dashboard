@@ -13,8 +13,13 @@
     <div
       class="w-fit h-14 rounded-2xl border-2 border-inputBorderColor bg-inputBg px-4 flex items-center justify-start gap-3"
     >
-      <img src="../assets/icons/ethImage.png" alt="ethImage" />
+      <img src="@/assets/icons/ethImage.png" alt="ethImage" />
       <h4 class="text-base font-medium">3,25 ETH</h4>
+    </div>
+    <div
+      class="w-fit h-14 rounded-2xl border-2 border-inputBorderColor bg-inputBg p-4 flex items-center justify-start gap-3"
+    >
+      <img src="@/assets/icons/notificationIcon.png" alt="notification" />
     </div>
   </header>
 </template>
