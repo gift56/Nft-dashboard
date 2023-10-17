@@ -175,7 +175,7 @@
 import { activityData } from "../utils/constant";
 
 export default {
-  name: "RightSideBar",
+  name: "RightSidebar",
   data() {
     return {
       activityData,

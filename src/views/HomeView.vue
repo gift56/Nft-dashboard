@@ -5,7 +5,9 @@
     <div class="flex-shrink">
       <LeftSideBar />
     </div>
-    <div class="flex-grow">djdj</div>
+    <div class="flex-grow flex flex-col items-start justify-start gap-8">
+
+    </div>
     <div class="flex-shrink">
       <RightSideBar />
     </div>
