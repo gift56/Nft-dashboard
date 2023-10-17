@@ -39,6 +39,9 @@
           </h2>
           <div class="w-full">
             <h4 class="text-sm font-bold bg-clip-text text-transparent bg-textBg2">{{ bid.artPrice }}</h4>
+            <div class="relative">
+              
+            </div>
           </div>
         </div>
       </div>
