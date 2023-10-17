@@ -1,15 +1,19 @@
 <template>
   <header class="w-full flex items-center justify-between gap-3">
-    <div
+    <form
+      @submit.prevent="performGoogleSearch"
       class="flex items-center justify-start gap-5 w-[35%] mainLaptop:w-[400px] h-14 rounded-2xl border-2 border-inputBorderColor bg-inputBg px-4"
     >
-      <img src="@/assets/icons/searchIcon.png" alt="searchIcon" />
+      <button class="outline-none">
+        <img src="@/assets/icons/searchIcon.png" alt="searchIcon" />
+      </button>
       <input
         type="text"
         placeholder="Search by creator or collection"
+        v-model="keyword"
         class="h-full w-full bg-transparent outline-none text-sm mainLaptop:text-base font-normal"
       />
-    </div>
+    </form>
     <div
       class="w-fit h-14 rounded-2xl border-2 border-inputBorderColor bg-inputBg px-4 flex items-center justify-start gap-3 hover:shadow-connectShadow transition-all duration-300 cursor-pointer hover:border-primary"
     >
@@ -59,5 +63,19 @@
 <script>
 export default {
   name: "Navbar",
+  data() {
+    return {
+      keyword: "",
+    };
+  },
+  methods: {
+    performGoogleSearch() {
+      if (this.keyword.trim() !== "") {
+        const searchQuery = encodeURIComponent(this.keyword);
+        const googleSearchURL = `https://www.google.com/search?q=${searchQuery}`;
+        window.location.href = googleSearchURL;
+      }
+    },
+  },
 };
 </script>
