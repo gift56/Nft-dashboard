@@ -4,7 +4,7 @@
       ⭐ Top Sellers
     </h2>
     <div
-      class="seller w-full overflow-x-scroll whitespace-nowrap scroll-smooth overflow-y-hidden scrollbar-hide"
+      class="seller w-full overflow-x-scroll whitespace-nowrap scroll-smooth overflow-y-hidden"
     >
       <div
         v-for="(seller, index) in topSellersData"
