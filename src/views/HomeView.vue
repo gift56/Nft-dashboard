@@ -7,6 +7,7 @@
     </div>
     <div class="flex-grow flex flex-col items-start justify-start gap-8">
       <Navbar />
+      <Popular />
     </div>
     <div class="flex-shrink">
       <RightSideBar />
@@ -18,12 +19,14 @@
 import LeftSideBar from "../components/LeftSideBar.vue";
 import Navbar from "../components/Navbar.vue";
 import RightSideBar from "../components/RightSidebar.vue";
+import Popular from "../components/Popular.vue";
 
 export default {
   components: {
     LeftSideBar,
     RightSideBar,
     Navbar,
+    Popular,
   },
 };
 </script>
