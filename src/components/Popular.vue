@@ -14,19 +14,27 @@
     <div class="w-full flex items-center justify-between gap-4">
       <div class="flex-1 relative h-[280px]">
         <img
-          src="../assets/image/nftImage1.png"
+          src="@/assets/image/nftImage1.png"
           alt="nft1"
           class="h-full rounded-3xl"
         />
         <div
           class="w-full h-full absolute inset-0 rounded-3xl flex items-end p-4 justify-start"
         >
-          <div class="w-[307px] p-4 flex items-center justify-center flex-col gap-5"></div>
+          <div class="w-[307px] p-4 flex items-center justify-center flex-col gap-5 bg-[#00000066] border border-[#60A5FA] rounded-xl">
+            <div class="w-full flex items-start justify-between gap-5">
+              <div class="flex flex-col items-center justify-center gap-4">
+                <div class="flex items-center gap-1">
+                  <img src="@/assets/icons/hourglassIcon.png" alt="timing">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="flex-1 relative h-[280px]">
         <img
-          src="../assets/image/nftImage2.png"
+          src="@/assets/image/nftImage2.png"
           alt="nft2"
           class="h-full rounded-3xl"
         />
