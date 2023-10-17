@@ -38,7 +38,7 @@
             {{ bid.artName }}
           </h2>
           <div class="w-full">
-            <h4 class="text-sm font-bold ">{{ bid.artPrice }}</h4>
+            <h4 class="text-sm font-bold bg-clip-text text-transparent bg-textBg2">{{ bid.artPrice }}</h4>
           </div>
         </div>
       </div>
