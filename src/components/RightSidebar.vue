@@ -49,33 +49,33 @@
       ></div>
     </div>
     <div class="w-full grid grid-cols-4 items-start justify-start gap-6">
-      <div class="flex items-center w-full flex-col gap-3 select-none">
+      <div class="flex items-center w-full flex-col gap-2 select-none">
         <div
-          class="w-full h-12 rounded-2xl flex items-center justify-center border border-[#3461FF] text-lg font-semibold"
+          class="w-full py-2 rounded-2xl flex items-center justify-center border border-[#3461FF] text-lg font-semibold"
         >
           120
         </div>
         <h5 class="text-sm font-bold font-quicksand">Asset</h5>
       </div>
-      <div class="flex items-center w-full flex-col gap-3 select-none">
+      <div class="flex items-center w-full flex-col gap-2 select-none">
         <div
-          class="w-full h-12 rounded-2xl flex items-center justify-center border border-[#3461FF] text-lg font-semibold"
+          class="w-full py-2 rounded-2xl flex items-center justify-center border border-[#3461FF] text-lg font-semibold"
         >
           10K
         </div>
         <h5 class="text-sm font-bold font-quicksand">Followers</h5>
       </div>
-      <div class="flex items-center w-full flex-col gap-3 select-none">
+      <div class="flex items-center w-full flex-col gap-2 select-none">
         <div
-          class="w-full h-12 rounded-2xl flex items-center justify-center border border-[#3461FF] text-lg font-semibold"
+          class="w-full py-2 rounded-2xl flex items-center justify-center border border-[#3461FF] text-lg font-semibold"
         >
           70
         </div>
         <h5 class="text-sm font-bold font-quicksand">Likes</h5>
       </div>
-      <div class="flex items-center w-full flex-col gap-3 select-none">
+      <div class="flex items-center w-full flex-col gap-2 select-none">
         <div
-          class="w-full h-12 rounded-2xl flex items-center justify-center border border-[#3461FF] text-lg font-semibold"
+          class="w-full py-2 rounded-2xl flex items-center justify-center border border-[#3461FF] text-lg font-semibold"
         >
           60
         </div>
