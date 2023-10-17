@@ -40,7 +40,7 @@
           <div class="w-full flex items-center justify-between">
             <h4 class="text-sm font-bold bg-clip-text text-transparent bg-textBg2">{{ bid.artPrice }}</h4>
             <div class="relative">
-              <img :src="user" :alt="user" v-for="user in bid.bidUsers">
+              <img :src="user" :alt="user" class="first:absolute last:absolute relative z-40 first:left-[-80%] last:right-[-50%] last:top-0 last:z-10" v-for="user in bid.bidUsers">
             </div>
           </div>
         </div>
