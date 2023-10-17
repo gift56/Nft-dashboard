@@ -13,7 +13,7 @@
       <Sellers />
       <Bids />
     </div>
-    <div class="flex-shrink">
+    <div class="hidden xl:block xl:flex-shrink">
       <RightSideBar />
     </div>
   </main>

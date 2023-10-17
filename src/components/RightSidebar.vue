@@ -119,7 +119,9 @@
       </div>
       <div
         class="w-full h-[184px] rounded-2xl border-2 border-[#495099] backdrop-blur-sm"
-      ></div>
+      >
+        <RevenueChart />
+      </div>
     </div>
     <div class="flex flex-col items-start justify-start gap-4 w-full">
       <div class="w-full flex items-center justify-between">
@@ -173,6 +175,7 @@
 
 <script>
 import { activityData } from "../utils/constant";
+import RevenueChart from "./RevenueChart.vue";
 
 export default {
   name: "RightSidebar",
@@ -181,5 +184,6 @@ export default {
       activityData,
     };
   },
+  components: { RevenueChart },
 };
 </script>
