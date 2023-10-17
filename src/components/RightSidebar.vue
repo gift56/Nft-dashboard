@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[318px] bg-inputBg border-2 border-[#075985] rounded-2xl h-[94vh] overflow-hidden hover:overflow-y-auto hover:overflow-x-hidden flex flex-col items-center justify-start gap-8 relative p-4"
+    class="w-[318px] bg-inputBg border-2 border-[#075985] rounded-2xl h-[480px] overflow-hidden hover:overflow-y-auto hover:overflow-x-hidden flex flex-col items-center justify-start gap-8 relative p-4"
   >
     <div
       class="relative w-full flex flex-col gap-8 items-center justify-center"
