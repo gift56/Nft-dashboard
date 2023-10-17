@@ -82,6 +82,9 @@
         <h5 class="text-sm font-bold font-quicksand">Bidding</h5>
       </div>
     </div>
+    <div class="w-full flex flex-col items-start justify-start gap-3">
+      <h3 class="text-xl font-bold">Your Balance</h3>
+    </div>
   </div>
 </template>
 
