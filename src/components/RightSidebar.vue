@@ -91,8 +91,8 @@
           <img src="../assets/icons/ethereumIcon.png" alt="etheriumLogo" />
           <h2 class="text-lg font-bold font-quicksand">4,668 ETH</h2>
         </div>
-        <div class="flex items-center justify-end gap-2 cursor-pointer">
-
+        <div class="flex items-center justify-end gap-2 cursor-pointer select-none">
+          <span>Add</span>
         </div>
       </div>
     </div>
