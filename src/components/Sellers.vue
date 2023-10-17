@@ -12,12 +12,25 @@
         class="relative mx-2 inline-block cursor-pointer pb-6 w-[180px]"
       >
         <div className="w-full flex items-center justify-start gap-3">
-          <img :src="seller.sellerImage" :alt="seller.username" class="w-[60px] aspect-square rounded-xl object-contain">
-          <div className="flex items-start flex-col justify-start gap-4">
-            <h2 className="whitespace-normal text-base font-medium">
-              
+          <img
+            :src="seller.sellerImage"
+            :alt="seller.username"
+            class="w-[60px] aspect-square rounded-xl object-contain"
+          />
+          <div className="flex items-start flex-col justify-start">
+            <h2
+              className="whitespace-normal text-base font-bold flex items-center gap-2"
+            >
+              {{ seller.username }}
+              <img
+                src="../assets/icons/verificationIcon.png"
+                alt="verifired"
+                v-if="seller.verified"
+              />
             </h2>
-            <p className="text-sm font-medium"></p>
+            <p className="text-sm font-bold text-[#5EEAD4] font-quicksand">
+              {{ seller.price }}
+            </p>
           </div>
         </div>
       </div>
