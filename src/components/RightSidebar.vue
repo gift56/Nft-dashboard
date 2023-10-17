@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[298px] bg-inputBorderColor border-2 border-[#075985] rounded-2xl h-[94vh] overflow-hidden hover:overflow-y-auto hover:overflow-x-hidden flex flex-col items-center justify-start gap-8 relative p-4"
+    class="w-[298px] bg-inputBg border-2 border-[#075985] rounded-2xl h-[94vh] overflow-hidden hover:overflow-y-auto hover:overflow-x-hidden flex flex-col items-center justify-start gap-8 relative p-4"
   >
     <div
       class="relative w-full flex flex-col gap-8 items-center justify-center"
@@ -84,6 +84,13 @@
     </div>
     <div class="w-full flex flex-col items-start justify-start gap-3">
       <h3 class="text-xl font-bold">Your Balance</h3>
+      <div
+        class="flex items-center justify-between w-full border border-[#495099] rounded-2xl backdrop-blur-sm py-2 px-4"
+      >
+        <div class="flex items-center justify-start gap-2">
+          <img src="../assets/icons/ethereumIcon.png" alt="etheriumLogo" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
