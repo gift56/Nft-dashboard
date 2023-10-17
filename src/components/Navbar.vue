@@ -31,13 +31,27 @@
     >
       <h4 class="text-sm mainLaptop:text-base font-normal">Connect Wallet</h4>
     </div>
-    <div class="flex items-center h-14 border-l-2 px-3 cursor-pointer">
+    <div class="flex items-center h-14 border-l-2 px-3 gap-3 cursor-pointer">
       <img
         src="@/assets/image/avatarImage.svg"
         alt="avatar"
         class="w-14 h-14 rounded-full"
       />
-      <img src="@/assets/icons/arrowDownIcon.png" alt="avatar" />
+      <div class="flex items-center justify-start gap-5">
+        <div
+          class="hidden monitor:flex flex-col items-start justify-start gap-2"
+        >
+          <h3
+            class="text-base monitor:text-lg font-semibold text-[#E2E4E9] font-quicksand"
+          >
+            Musfiqur Rahman
+          </h3>
+          <p class="text-sm font-normal font-quicksand text-[#93C5FD]">
+            ryzenpixel@gmail.com
+          </p>
+        </div>
+        <img src="@/assets/icons/arrowDownIcon.png" alt="avatar" />
+      </div>
     </div>
   </header>
 </template>

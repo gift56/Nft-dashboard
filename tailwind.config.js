@@ -32,7 +32,8 @@ module.exports = {
         connectShadow: "0px 13px 17px 0px rgba(140, 213, 105, 0.20)",
       },
       screens: {
-        mainLaptop: "1400px",
+        mainLaptop: "1490px",
+        monitor: "1790px",
       },
     },
   },
