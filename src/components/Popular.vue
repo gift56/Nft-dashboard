@@ -26,6 +26,7 @@
               <div class="flex flex-col items-center justify-center gap-4">
                 <div class="flex items-center gap-1">
                   <img src="@/assets/icons/hourglassIcon.png" alt="timing">
+                  <h4>18h : 17m : 29s</h4>
                 </div>
               </div>
             </div>
