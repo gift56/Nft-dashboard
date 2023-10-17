@@ -6,7 +6,7 @@
       🔥 Hot Bids
     </h2>
     <div
-      class="w-full grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 monitor:grid-cols-6 gap-6"
+      class="w-full grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 monitor:grid-cols-6 gap-x-6 gap-y-10"
     >
       <div
         v-for="bid in bidsData"
@@ -27,6 +27,17 @@
               <img src="../assets/icons/heartIcon.png" alt="heart" />
             </div>
           </div>
+          <img
+            :src="bid.bidImage"
+            :alt="bid.artName"
+            class="w-full rounded-2xl aspect-square"
+          />
+        </div>
+        <div class="w-full flex flex-col items-start justify-start gap-2">
+          <h2 class="text-sm font-semibold text-[#FAFAFB]">
+            {{ bid.artName }}
+          </h2>
+          <div class="w-full"></div>
         </div>
       </div>
     </div>
