@@ -1,8 +1,3 @@
-<script setup>
-import LeftSideBar from "../components/LeftSideBar.vue";
-import RightSideBar from "../components/RightSidebar.vue";
-</script>
-
 <template>
   <main
     class="flex items-start justify-start w-full h-screen overflow-hidden gap-6 p-6"
@@ -16,3 +11,15 @@ import RightSideBar from "../components/RightSidebar.vue";
     </div>
   </main>
 </template>
+
+<script>
+import LeftSideBar from "../components/LeftSideBar.vue";
+import RightSideBar from "../components/RightSidebar.vue";
+
+export default {
+  components: {
+    LeftSideBar,
+    RightSideBar,
+  },
+};
+</script>
