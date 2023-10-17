@@ -18,7 +18,7 @@
         class="w-12 h-12 bg-ballsBg rounded-full absolute top-[5%] right-[-15%]"
       ></div>
       <div
-        class="w-16 h-16 bg-balls2Bg rounded-full absolute top-[40%] right-[-25%] z-10"
+        class="w-16 h-16 bg-balls2Bg rounded-full absolute top-[40%] right-[-22%] z-10"
       ></div>
       <div
         class="w-16 h-16 bg-[#FFA336] rounded-full absolute top-[46%] right-[-25%] blur-[39.5px]"
