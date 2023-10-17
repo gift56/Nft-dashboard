@@ -29,17 +29,27 @@
       <div
         class="w-[102px] h-[102px] bg-[#A22DFF] rounded-full absolute top-[18%] left-[-25%] blur-[89.5px]"
       ></div>
-      <div class="w-8 h-16 bg-balls4Bg rounded-br-full absolute top-[65%] left-[-12%] z-10"></div>
+      <div
+        class="w-8 h-16 bg-balls4Bg rounded-br-full absolute top-[65%] left-[-12%] z-10"
+      ></div>
       <div
         class="w-16 h-16 bg-[#FFA336] rounded-full absolute top-[80%] left-[-12%] blur-[89.5px]"
       ></div>
-      <div class="w-5 h-5 bg-smallBallsBg rounded-full absolute top-[18%] left-[12%] z-10"></div>
-      <div class="w-5 h-5 bg-smallBallsBg2 rounded-full absolute top-[70%] right-[4%] z-10"></div>
-      <div class="w-3 h-3 bg-[#555D75] rounded-full absolute top-[46%] left-[2%] z-10"></div>
-      <div class="w-2 h-2 bg-[#555D75] rounded-full absolute top-[46%] right-[8%] z-10"></div>
+      <div
+        class="w-5 h-5 bg-smallBallsBg rounded-full absolute top-[18%] left-[12%] z-10"
+      ></div>
+      <div
+        class="w-5 h-5 bg-smallBallsBg2 rounded-full absolute top-[70%] right-[4%] z-10"
+      ></div>
+      <div
+        class="w-3 h-3 bg-[#555D75] rounded-full absolute top-[46%] left-[2%] z-10"
+      ></div>
+      <div
+        class="w-2 h-2 bg-[#555D75] rounded-full absolute top-[46%] right-[8%] z-10"
+      ></div>
     </div>
     <div class="w-full grid grid-cols-4 items-start justify-start gap-6">
-      
+      <div class=""></div>
     </div>
   </div>
 </template>
