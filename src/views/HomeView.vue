@@ -21,6 +21,7 @@ import LeftSideBar from "../components/LeftSideBar.vue";
 import Navbar from "../components/Navbar.vue";
 import RightSideBar from "../components/RightSidebar.vue";
 import Popular from "../components/Popular.vue";
+import Sellers from "../components/Sellers.vue";
 
 export default {
   components: {
@@ -28,6 +29,7 @@ export default {
     RightSideBar,
     Navbar,
     Popular,
+    Sellers,
   },
 };
 </script>
