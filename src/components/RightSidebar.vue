@@ -132,8 +132,23 @@
         </div>
       </div>
       <div class="flex flex-col items-start justify-start gap-4 w-full">
-        <div v-for="activity in activityData" :key="activity.activityTitle" class="w-full flex items-center justify-between gap-6 p-2 rounded-2xl bg-darkColor2">
-        
+        <div
+          v-for="activity in activityData"
+          :key="activity.activityTitle"
+          class="w-full flex items-center justify-between gap-6 p-2 rounded-2xl bg-darkColor2"
+        >
+          <div class="flex items-center justify-start gap-2">
+            <img :src="activity.activityImage" :alt="activity.activityTitle" />
+            <div class="flex flex-col items-start justify-start gap-1">
+              <h2 class="text-sm font-semibold">
+                {{ activity.activityTitle }}
+              </h2>
+              <span
+              class="text-xs font-normal"
+                >by <span class="bg-clip-text text-transparent bg-textBg text-sm font-medium">{{ activity.autor }}</span
+              ></span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
