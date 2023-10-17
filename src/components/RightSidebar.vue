@@ -118,7 +118,7 @@
         </div>
       </div>
       <div
-        class="w-full h-[184px] rounded-2xl border-2 border-[#495099] backdrop-blur-sm"
+        class="w-full h-[184px] rounded-2xl border-2 border-[#495099] backdrop-blur-sm overflow-hidden"
       >
         <RevenueChart />
       </div>
