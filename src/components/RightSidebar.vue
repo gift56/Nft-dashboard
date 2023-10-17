@@ -95,7 +95,26 @@
           class="flex items-center justify-end gap-1 cursor-pointer select-none"
         >
           <span class="text-base font-semibold font-quicksand">Add</span>
-          <img src="@/assets/icons/arrowDownIcon.png" alt="arrow" class="-rotate-90 w-4 h-4 object-contain" />
+          <img
+            src="@/assets/icons/arrowDownIcon.png"
+            alt="arrow"
+            class="-rotate-90 w-4 h-4 object-contain"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col items-start justify-start gap-4 w-full">
+      <div class="w-full flex items-center justify-between">
+        <h3 class="text-xl font-bold font-quicksand">Revenue</h3>
+        <div
+          class="flex items-center justify-end gap-1 cursor-pointer select-none"
+        >
+          <span class="text-base font-semibold font-quicksand">This Month</span>
+          <img
+            src="@/assets/icons/arrowDownIcon.png"
+            alt="arrow"
+            class="w-4 h-4 object-contain"
+          />
         </div>
       </div>
     </div>
