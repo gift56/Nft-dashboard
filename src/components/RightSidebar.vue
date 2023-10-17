@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[298px] bg-inputBg border-2 border-[#075985] rounded-2xl h-[94vh] overflow-hidden hover:overflow-y-auto hover:overflow-x-hidden flex flex-col items-center justify-start gap-8 relative p-4"
+    class="w-[318px] bg-inputBg border-2 border-[#075985] rounded-2xl h-[94vh] overflow-hidden hover:overflow-y-auto hover:overflow-x-hidden flex flex-col items-center justify-start gap-8 relative p-4"
   >
     <div
       class="relative w-full flex flex-col gap-8 items-center justify-center"
@@ -143,11 +143,27 @@
               <h2 class="text-sm font-semibold">
                 {{ activity.activityTitle }}
               </h2>
-              <span
-              class="text-xs font-normal"
-                >by <span class="bg-clip-text text-transparent bg-textBg text-sm font-medium">{{ activity.autor }}</span
-              ></span>
+              <span class="text-xs font-normal"
+                >by
+                <span
+                  class="bg-clip-text text-transparent bg-textBg text-sm font-medium"
+                  >{{ activity.autor }}</span
+                ></span
+              >
             </div>
+          </div>
+          <div class="flex flex-col items-end justify-end gap-3">
+            <div>
+              <h5 class="text-xs text-right font-medium text-[#67E8F9]">
+                New Bid
+              </h5>
+              <h3 class="text-sm text-right font-semibold">
+                {{ activity.details.headline }}
+              </h3>
+            </div>
+            <span class="text-xs font-normal text-right text-[#93C5FD]">{{
+              activity.details.timestamp
+            }}</span>
           </div>
         </div>
       </div>
