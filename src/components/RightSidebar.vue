@@ -85,7 +85,7 @@
     <div class="w-full flex flex-col items-start justify-start gap-3">
       <h3 class="text-xl font-bold">Your Balance</h3>
       <div
-        class="flex items-center justify-between w-full border border-[#495099] rounded-2xl backdrop-blur-sm py-2 px-4"
+        class="flex items-center justify-between w-full border border-[#495099] rounded-2xl backdrop-blur-sm py-2 px-3"
       >
         <div class="flex items-center justify-start gap-2">
           <img src="../assets/icons/ethereumIcon.png" alt="etheriumLogo" />
