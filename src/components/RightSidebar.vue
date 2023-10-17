@@ -117,6 +117,9 @@
           />
         </div>
       </div>
+      <div
+        class="w-full h-[184px] rounded-2xl border-2 border-[#495099] backdrop-blur-sm"
+      ></div>
     </div>
   </div>
 </template>
