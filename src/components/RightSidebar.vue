@@ -38,6 +38,9 @@
       <div class="w-3 h-3 bg-[#555D75] rounded-full absolute top-[46%] left-[2%] z-10"></div>
       <div class="w-2 h-2 bg-[#555D75] rounded-full absolute top-[46%] right-[8%] z-10"></div>
     </div>
+    <div class="w-full grid grid-cols-4 items-start justify-start gap-6">
+      
+    </div>
   </div>
 </template>
 
