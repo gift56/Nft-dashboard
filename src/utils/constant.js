@@ -16,7 +16,6 @@ import {
   BidUser5,
   BidUser6,
   BuyIcon,
-  FriendsIcon,
   MessageIcon,
   Seller1,
   Seller2,
@@ -24,9 +23,7 @@ import {
   Seller4,
   Seller5,
   Seller6,
-  SettingsIcon,
   TimeIcon,
-  WalletIcon,
 } from "../assets";
 
 export const leftSideBarData = [
@@ -46,7 +43,6 @@ export const leftSideBarData = [
     iconImage: TimeIcon,
   },
 ];
-
 
 export const topSellersData = [
   {

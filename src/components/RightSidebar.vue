@@ -132,7 +132,7 @@
         </div>
       </div>
       <div class="flex flex-col items-start justify-start gap-4 w-full">
-        <div v-for="activity in activityData" :key="activity.activityTitle" class="">
+        <div v-for="activity in activityData" :key="activity.activityTitle" class="w-full flex items-center justify-between gap-6 p-2 rounded-2xl bg-darkColor2">
         
         </div>
       </div>
