@@ -1,11 +1,13 @@
 <template>
   <main
-    class="flex items-start justify-start w-full h-screen overflow-hidden gap-6 p-6"
+    class="flex items-start justify-start w-full h-screen overflow-hidden p-6 gap-6"
   >
     <div class="flex-shrink">
       <LeftSideBar />
     </div>
-    <div class="flex-grow flex flex-col items-start justify-start gap-8">
+    <div
+      class="flex-grow flex flex-col items-start justify-start gap-8 h-screen hover:overflow-x-hidden hover:overflow-y-auto"
+    >
       <Navbar />
       <Popular />
       <Sellers />
