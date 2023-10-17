@@ -73,7 +73,7 @@ export default {
       if (this.keyword.trim() !== "") {
         const searchQuery = encodeURIComponent(this.keyword);
         const googleSearchURL = `https://www.google.com/search?q=${searchQuery}`;
-        window.location.href = googleSearchURL;
+        window.open(googleSearchURL, "_blank");
       }
     },
   },
