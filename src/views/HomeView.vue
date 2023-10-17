@@ -6,7 +6,7 @@
       <LeftSideBar />
     </div>
     <div class="flex-grow flex flex-col items-start justify-start gap-8">
-
+      <Navbar />
     </div>
     <div class="flex-shrink">
       <RightSideBar />
@@ -16,12 +16,14 @@
 
 <script>
 import LeftSideBar from "../components/LeftSideBar.vue";
+import Navbar from "../components/Navbar.vue";
 import RightSideBar from "../components/RightSidebar.vue";
 
 export default {
   components: {
     LeftSideBar,
     RightSideBar,
+    Navbar,
   },
 };
 </script>
