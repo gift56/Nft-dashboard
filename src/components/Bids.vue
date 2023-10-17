@@ -37,10 +37,10 @@
           <h2 class="text-sm font-semibold text-[#FAFAFB]">
             {{ bid.artName }}
           </h2>
-          <div class="w-full">
+          <div class="w-full flex items-center justify-between">
             <h4 class="text-sm font-bold bg-clip-text text-transparent bg-textBg2">{{ bid.artPrice }}</h4>
             <div class="relative">
-              
+              <img :src="user" :alt="user" v-for="user in bid.bidUsers">
             </div>
           </div>
         </div>
