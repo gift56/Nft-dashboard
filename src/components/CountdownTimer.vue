@@ -1,5 +1,5 @@
 <template>
-  <div class="countdown">
+  <div>
     {{ formattedTime }}
   </div>
 </template>

@@ -18,7 +18,7 @@
             <div
               class="bg-[#161A42] rounded-tl-lg rounded-tr-lg py-2 w-[130px] text-center text-sm font-bold text-[#FAFAFB]"
             >
-              {{ formattedTime }}
+              <CountdownTimer :targetTime="bid.countdown" />
             </div>
             <div class="flex items-center gap-1">
               <span class="text-sm font-medium text-[#FAFAFB]">{{
@@ -60,13 +60,15 @@
 
 <script>
 import { bidsData } from "../utils/constant";
+import CountdownTimer from "./CountdownTimer.vue";
 
 export default {
-  name: "Bids",
-  data() {
-    return {
-      bidsData,
-    };
-  },
+    name: "Bids",
+    data() {
+        return {
+            bidsData,
+        };
+    },
+    components: { CountdownTimer }
 };
 </script>

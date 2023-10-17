@@ -157,7 +157,7 @@ export const topSellersData = [
 
 export const bidsData = [
   {
-    countdown: "00:00:00",
+    countdown: "2023-10-21T23:59:59",
     totalLike: "232",
     bidImage: BidArt1,
     artName: "Stretch Of Time",
@@ -165,7 +165,7 @@ export const bidsData = [
     bidUsers: [BidUser2, BidUser1, BidUser3],
   },
   {
-    countdown: "00:00:00",
+    countdown: "2023-11-21T23:59:59",
     totalLike: "172",
     bidImage: BidArt2,
     artName: "Arcade Land",
@@ -173,7 +173,7 @@ export const bidsData = [
     bidUsers: [BidUser4, BidUser5, BidUser6],
   },
   {
-    countdown: "00:00:00",
+    countdown: "2023-10-21T23:59:59",
     totalLike: "99",
     bidImage: BidArt3,
     artName: "Shinsekai Portal",
@@ -181,7 +181,7 @@ export const bidsData = [
     bidUsers: [BidUser2, BidUser1, BidUser3],
   },
   {
-    countdown: "00:00:00",
+    countdown: "2023-10-19T23:59:59",
     totalLike: "172",
     bidImage: BidArt4,
     artName: "Paper Cut",
@@ -189,7 +189,7 @@ export const bidsData = [
     bidUsers: [BidUser4, BidUser5, BidUser6],
   },
   {
-    countdown: "00:00:00",
+    countdown: "2023-10-22T23:59:59",
     totalLike: "42",
     bidImage: BidArt5,
     artName: "Cyber Brokers",
@@ -197,7 +197,7 @@ export const bidsData = [
     bidUsers: [BidUser2, BidUser1, BidUser3],
   },
   {
-    countdown: "00:00:00",
+    countdown: "2023-10-31T23:59:59",
     totalLike: "43",
     bidImage: BidArt6,
     artName: "Akuma Origins",
