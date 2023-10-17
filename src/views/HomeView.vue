@@ -6,7 +6,7 @@
       <LeftSideBar />
     </div>
     <div
-      class="flex-grow flex flex-col items-start justify-start gap-8 h-screen hover:overflow-x-hidden hover:overflow-y-auto"
+      class="flex-grow flex flex-col items-start justify-start gap-8 h-screen hover:overflow-x-hidden hover:overflow-y-auto pb-20"
     >
       <Navbar />
       <Popular />

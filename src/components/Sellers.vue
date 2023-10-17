@@ -3,14 +3,23 @@
     <h2 class="text-2xl font-bold font-quicksand text-[#6EE7B7] select-none">
       ⭐ Top Sellers
     </h2>
-    <div class="seller w-full overflow-x-scroll whitespace-nowrap scroll-smooth py-10 overflow-y-hidden">
-
+    <div
+      class="seller w-full overflow-x-scroll whitespace-nowrap scroll-smooth overflow-y-hidden"
+    >
+      <div v-for="(seller, index) in topSellersData" :key="index">hello</div>
     </div>
   </div>
 </template>
 
 <script>
+import { topSellersData } from "../utils/constant";
+
 export default {
   name: "Sellers",
+  data() {
+    return {
+      topSellersData,
+    };
+  },
 };
 </script>
