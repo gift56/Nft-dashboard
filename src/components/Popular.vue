@@ -21,13 +21,22 @@
         <div
           class="w-full h-full absolute inset-0 rounded-3xl flex items-end p-4 justify-start"
         >
-          <div class="w-[307px] p-4 flex items-center justify-center flex-col gap-5 bg-[#00000066] border border-[#60A5FA] rounded-xl">
+          <div
+            class="w-[307px] p-4 flex items-center justify-center flex-col gap-5 bg-[#00000066] border border-[#60A5FA] rounded-xl"
+          >
             <div class="w-full flex items-start justify-between gap-5">
               <div class="flex flex-col items-center justify-center gap-4">
-                <div class="flex items-center gap-1">
-                  <img src="@/assets/icons/hourglassIcon.png" alt="timing">
-                  <h4>18h : 17m : 29s</h4>
+                <div class="flex items-center justify-start gap-1">
+                  <img
+                    src="@/assets/icons/hourglassIcon.png"
+                    alt="timing"
+                    class="w-6 h-6 object-contain"
+                  />
+                  <h4 class="text-lg font-semibold font-quicksand">
+                    18h : 17m : 29s
+                  </h4>
                 </div>
+                <p class="text-xs font-semibold font-quicksand">Time Remaining</p>
               </div>
             </div>
           </div>
