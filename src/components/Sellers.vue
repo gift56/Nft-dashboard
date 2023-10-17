@@ -3,7 +3,9 @@
     <h2 class="text-2xl font-bold font-quicksand text-[#6EE7B7] select-none">
       ⭐ Top Sellers
     </h2>
-    <div class=""></div>
+    <div class="seller w-full overflow-x-scroll whitespace-nowrap scroll-smooth py-10 overflow-y-hidden">
+
+    </div>
   </div>
 </template>
 
