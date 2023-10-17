@@ -11,6 +11,7 @@
       <Navbar />
       <Popular />
       <Sellers />
+      <Bids />
     </div>
     <div class="flex-shrink">
       <RightSideBar />
@@ -24,6 +25,7 @@ import Navbar from "../components/Navbar.vue";
 import RightSideBar from "../components/RightSidebar.vue";
 import Popular from "../components/Popular.vue";
 import Sellers from "../components/Sellers.vue";
+import Bids from "../components/Bids.vue";
 
 export default {
   components: {
@@ -32,6 +34,7 @@ export default {
     Navbar,
     Popular,
     Sellers,
+    Bids,
   },
 };
 </script>
