@@ -3,6 +3,7 @@
     <h2 class="text-2xl font-bold font-quicksand text-[#6EE7B7] select-none">
       ⭐ Top Sellers
     </h2>
+    <div class=""></div>
   </div>
 </template>
 
