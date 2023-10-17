@@ -11,7 +11,7 @@
         <img src="../assets/icons/rightArrowIcon.png" alt="rightArrow" />
       </div>
     </div>
-    <div class="w-full flex items-center justify-between gap-4">
+    <div class="w-full flex flex-col xl:flex-row items-center justify-between gap-4">
       <div class="flex-1 relative h-[280px]">
         <img
           src="@/assets/image/nftImage1.png"
@@ -33,7 +33,7 @@
                     class="w-6 h-6 object-contain"
                   />
                   <h4 class="text-lg font-semibold font-quicksand">
-                    18h : 17m : 29s
+                    <CountdownTimer targetTime="2023-10-17T23:59:59" />
                   </h4>
                 </div>
                 <p class="text-xs font-semibold font-quicksand">
@@ -75,7 +75,7 @@
                     class="w-6 h-6 object-contain"
                   />
                   <h4 class="text-lg font-semibold font-quicksand">
-                    18h : 17m : 29s
+                    <CountdownTimer targetTime="2023-10-19T23:59:59" />
                   </h4>
                 </div>
                 <p class="text-xs font-semibold font-quicksand">
@@ -101,7 +101,10 @@
 </template>
 
 <script>
+import CountdownTimer from './CountdownTimer.vue';
+
 export default {
-  name: "Popular",
+    name: "Popular",
+    components: { CountdownTimer }
 };
 </script>
