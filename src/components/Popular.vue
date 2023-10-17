@@ -45,6 +45,12 @@
                 <p class="text-xs font-semibold font-quicksand">Highest Bid</p>
               </div>
             </div>
+            <button
+              disabled
+              class="w-full disabled:bg-[#161a42b3] disabled:cursor-not-allowed border-2 border-[#06B6D4] rounded-xl py-2 px-4 outline-none text-sm font-bold font-quicksand"
+            >
+              Place A Bid
+            </button>
           </div>
         </div>
       </div>
@@ -54,6 +60,41 @@
           alt="nft2"
           class="h-full rounded-3xl"
         />
+        <div
+          class="w-full h-full absolute inset-0 rounded-3xl flex items-end p-4 justify-start"
+        >
+          <div
+            class="w-[307px] p-4 flex items-center justify-center flex-col gap-5 bg-[#00000066] border border-[#60A5FA] rounded-xl"
+          >
+            <div class="w-full flex items-start justify-between gap-5">
+              <div class="flex flex-col items-center justify-center gap-2">
+                <div class="flex items-center justify-start gap-1">
+                  <img
+                    src="@/assets/icons/hourglassIcon.png"
+                    alt="timing"
+                    class="w-6 h-6 object-contain"
+                  />
+                  <h4 class="text-lg font-semibold font-quicksand">
+                    18h : 17m : 29s
+                  </h4>
+                </div>
+                <p class="text-xs font-semibold font-quicksand">
+                  Time Remaining
+                </p>
+              </div>
+              <div class="flex flex-col items-start justify-center gap-2">
+                <h4 class="text-lg font-semibold font-quicksand">17.53 ETH</h4>
+                <p class="text-xs font-semibold font-quicksand">Highest Bid</p>
+              </div>
+            </div>
+            <button
+              disabled
+              class="w-full disabled:bg-[#161a42b3] disabled:cursor-not-allowed border-2 border-[#06B6D4] rounded-xl py-2 px-4 outline-none text-sm font-bold font-quicksand"
+            >
+              Place A Bid
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
