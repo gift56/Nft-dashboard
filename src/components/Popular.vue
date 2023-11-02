@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="w-full flex flex-col xl:flex-row items-center justify-between gap-4">
-      <div class="flex-1 relative h-[280px]">
+      <div class="flex-1 relative h-[280px] overflow-hidden">
         <img
           src="@/assets/image/nftImage1.png"
           alt="nft1"
@@ -54,7 +54,7 @@
           </div>
         </div>
       </div>
-      <div class="flex-1 relative h-[280px]">
+      <div class="flex-1 relative h-[280px] overflow-hidden">
         <img
           src="@/assets/image/nftImage2.png"
           alt="nft2"
