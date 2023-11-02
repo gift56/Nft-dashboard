@@ -1,6 +1,6 @@
 <template>
   <main
-    class="flex items-start justify-start w-full h-screen overflow-hidden p-6 gap-6"
+    class="flex items-start justify-start w-full h-screen overflow-hidden p-6 gap-6 relative"
   >
     <div class="flex-shrink">
       <LeftSideBar />
