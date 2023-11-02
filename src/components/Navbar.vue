@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full flex items-center justify-between gap-3">
+  <header class="w-full flex flex-wrap md:flex-nowrap items-start md:items-center md:justify-between gap-3">
     <form
       @submit.prevent="performGoogleSearch"
       class="flex items-center justify-start gap-5 w-[35%] mainLaptop:w-[400px] h-14 rounded-2xl border-2 border-inputBorderColor bg-inputBg px-4"
