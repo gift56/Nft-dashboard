@@ -11,7 +11,7 @@
         <img src="../assets/icons/rightArrowIcon.png" alt="rightArrow" />
       </div>
     </div>
-    <div class="w-full flex flex-col xl:flex-row items-center justify-between gap-4">
+    <div class="w-full hidden md:flex flex-col xl:flex-row items-center justify-between gap-4">
       <div class="flex-1 relative h-[280px]">
         <img
           src="@/assets/image/nftImage1.png"
