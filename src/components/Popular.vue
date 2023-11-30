@@ -33,7 +33,7 @@
                     class="w-6 h-6 object-contain"
                   />
                   <h4 class="text-lg font-semibold font-quicksand">
-                    <CountdownTimer targetTime="2023-10-17T23:59:59" />
+                    <CountdownTimer targetTime="2024-10-17T23:59:59" />
                   </h4>
                 </div>
                 <p class="text-xs font-semibold font-quicksand">
@@ -75,7 +75,7 @@
                     class="w-6 h-6 object-contain"
                   />
                   <h4 class="text-lg font-semibold font-quicksand">
-                    <CountdownTimer targetTime="2023-10-19T23:59:59" />
+                    <CountdownTimer targetTime="2024-10-19T23:59:59" />
                   </h4>
                 </div>
                 <p class="text-xs font-semibold font-quicksand">
